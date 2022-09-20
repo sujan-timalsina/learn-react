@@ -1,0 +1,31 @@
+nav ul {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    height: 30px;
+}
+
+main {
+    padding: 10px;
+    background-color: aliceblue;
+    color: #9b41aa;
+    min-height: 85vh;
+}
+
+footer {
+    background-image: linear-gradient(to right, #c10f3f, #010168);
+    position: relative;
+    padding: 1em;
+    left: 0%;
+    bottom: 0%;
+    height: 30px;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+}
+
+.active-page {
+    color: white;
+}
